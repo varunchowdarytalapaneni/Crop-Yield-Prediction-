@@ -1,10 +1,34 @@
-# mini
+Features
+📱 Cross-platform App: Built using Flutter (works on Android & iOS).
+🤖 Machine Learning Model: Predicts crop yield based on input parameters like soil type, rainfall, season, and fertilizers.
+🔗 Flask API Integration: ML model served through Flask REST API.
+🎨 Modern UI/UX: Simple, intuitive interface for users.
+🌐 Scalable: Can be extended t
 
-A new Flutter project.
 
-## Getting Started
+🛠️ Tech Stack
+*Frontend*
+Flutter
+Dart
+*Backend*
+Flask
+Python
+*Machine Learning*
+Scikit-Learn
+Pandas
+NumPy
+*Others*
+HTML (for basic web interface)o integrate with real-time datasets or government APIs.
 
-This project is a starting point for a Flutter application.
+📊 Dataset
+Dataset collected from [Kaggle / Government Agricultural Data] (replace with actual source).
+Features: Soil type, rainfall, crop type, fertilizers, season, etc.
+Target: Crop yield (kg/hectare).
+
+📈 ML Model
+Preprocessing with Pandas & NumPy.
+Applied ML algorithm (e.g., Linear Regression / Random Forest / XGBoost → update accordingly).
+Model serialized with Pickle (model.pkl).
 
 A few resources to get you started if this is your first Flutter project:
 
